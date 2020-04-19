@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OrderBookFulfillmentApplication": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

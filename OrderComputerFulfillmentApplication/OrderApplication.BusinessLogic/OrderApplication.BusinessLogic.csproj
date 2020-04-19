@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="1.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderApplication.Common\OrderApplication.Common.csproj" />
+    <ProjectReference Include="..\OrderApplication.IBusinessLogic\OrderApplication.IBusinessLogic.csproj" />
+  </ItemGroup>
+
+</Project>
